@@ -1,0 +1,366 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="favicon.ico">
+		<title>Tamás Hidász -- Portfolio</title>
+		<!-- Bootstrap core CSS -->
+		<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- Custom styles for this template -->
+		<link href="{% static 'css/style.css' %}" rel="stylesheet">
+	</head>
+	<body id="page-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							
+						</li>
+						<li>
+							<a class="page-scroll" href="#portfolio">Tamás Hidász Portfolio</a>
+						</li>
+						<li>
+							
+						</li>
+						<li>
+							
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		
+		<section id="portfolio">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h2>My Works</h2>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="row row-0-gutter">
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/drumlesson_scheduling.png' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>Scheduling App</h2>
+								<p>Django WebApp on AWS</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/ecommerce.png' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>Ecommerce App</h2>
+								<p>Django WebApp running via Cloudflare</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+			</div>
+			<div class="row row-0-gutter">
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/webserver.jpg' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>Webserver</h2>
+								<p>running from home</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/rock_game.png' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>Django Game</h2>
+								<p>Rock, Paper, Scissors</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+			</div>
+			<div class="row row-0-gutter">
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/temp.jpg' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>Room temperature / humidity app</h2>
+								<p></p>
+								<a href="#" data-toggle="modal" data-target="#Modal-7">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->			
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/desktop.jpg' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>File manager program</h2>
+								<p></p>
+								<a href="#" data-toggle="modal" data-target="#Modal-6">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->			
+				<!-- start portfolio item -->
+				<div class="col-md-6 col-0-gutter">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="{% static 'images/snake_.png' %}" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>Snake Game</h2>
+								<p>PyGame App</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+
+
+	
+			</div>
+			</div><!-- container -->
+		</section>
+
+	
+
+		
+
+
+		<p id="back-top">
+			<a href="#top"><i class="fa fa-angle-up"></i></a>
+		</p>
+		<footer>
+			<div class="container text-center">
+				<p>tamasubi pages</p>
+			</div>
+		</footer>
+
+		<!-- Modal for portfolio item 1 -->
+		<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-1">Scheduling App</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/drumlesson_scheduling.png' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Django</span><span>AI</span><span>AWS</span></div>
+						<p>A Django scheduling application, running on AWS EC2, contains an AI assistant. Users can register, sign in and out. Users who are signed in, are allowed to you schedule drumlessons, check their scheduled lessons and use ask the bult-in AI chat-bot for help.
+						<center>
+						<a href="http://44.201.190.36:8000/" target="_blank" rel="noopener noreferrer" style="font-size: 18px; font-weight: bold;">LINK TO APP</a>
+					    </center>
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 2 -->
+		<div class="modal fade" id="Modal-2" tabindex="-1" role="dialog" aria-labelledby="Modal-label-2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-2">Ecommerce WebApp</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/ecommerce.png' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Django</span><span>Docker</span></div>
+						<p>This ecommerce web application, built using Django and powered by Python, utilizes JavaScript and HTML. Users can buy drumlessons and studio work. After filling out the forms they are directed to PayPAl sandbox payment.
+						<center>
+							<a href="https://eco.tamasportfolio.com" target="_blank" rel="noopener noreferrer" style="font-size: 18px; font-weight: bold;" >LINK TO APP</a>
+						</center>
+					</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 3 -->
+		<div class="modal fade" id="Modal-3" tabindex="-1" role="dialog" aria-labelledby="Modal-label-3">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-3">Webserver</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/webserver.jpg' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Linux</span><span>Docker</span></div>
+						<p>A home web server that I created. It hosts my e-commerce web app, runs on Linux.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 4 -->
+		<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-4">Rock, Paper, Scissors</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/rock_game.png' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Django</span><span>Fly.io</span></div>
+						<p>A Rock-Paper-Scissors web app built in Django. It's deployed on Fly.io. Users can register and play against the program.
+						<center>
+							<a href="https://rock-project.fly.dev" target="_blank" rel="noopener noreferrer" style="font-size: 18px; font-weight: bold;" >LINK TO APP</a>
+						</center>
+					</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 5 -->
+		<div class="modal fade" id="Modal-5" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-5">Snake Game</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/snake_.png' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>PyGame</span></div>
+						<p>A snake game written in Python.
+							<center>
+							<a href="https://github.com/tamasubi/snake_game.git" target="_blank" rel="noopener noreferrer" style="font-size: 18px; font-weight: bold;">Link to the Github page</a>
+							</center>
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Modal for portfolio item 6 -->
+		<div class="modal fade" id="Modal-6" tabindex="-1" role="dialog" aria-labelledby="Modal-label-6">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-5">File manager</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/desktop.jpg' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Python</span></div>
+						<p>A Python program, helps to keep your computer's desktop managed. Users can run it from terminal. If a user selects the desktop folder, the app moves certain types of files into the selected directory.
+							<center>
+							<a href="https://github.com/tamasubi/file_management.git" target="_blank" rel="noopener noreferrer" style="font-size: 18px; font-weight: bold;">Link to the Github page</a>
+							</center>
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>		
+
+
+			<!-- Modal for portfolio item 7 -->
+		<div class="modal fade" id="Modal-7" tabindex="-1" role="dialog" aria-labelledby="Modal-label-7">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-5">File manager</h4>
+					</div>
+					<div class="modal-body">
+						<img src="{% static 'images/temp.jpg' %}" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Python</span></div>
+						<p>A Python program, helps to keep your computer's desktop managed. Users can run it from terminal. If a user selects the desktop folder, the app moves certain types of files into the selected directory.
+							<center>
+							<a href="https://github.com/tamasubi/file_management.git" target="_blank" rel="noopener noreferrer" style="font-size: 18px; font-weight: bold;">Link to the Github page</a>
+							</center>
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'js/SmoothScroll.js' %}"></script>
+		<script src="{% static 'js/theme-scripts.js' %}"></script>
+	</body>
+</html>
